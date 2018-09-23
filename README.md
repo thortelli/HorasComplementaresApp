@@ -5,6 +5,3 @@ Aplicação SPA para gerenciamento de Horas Complementares de uma Instituição 
 
 * [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
 
-# License
-
-[MIT](LICENSE).
