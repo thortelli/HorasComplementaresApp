@@ -122,7 +122,7 @@ namespace HorasComplementaresApp.Web.Host.Startup
             // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint(_appConfiguration["App:ServerRootAddress"] + "swagger/v1/swagger.json", "HorasComplementaresApp API V1");
+                options.SwaggerEndpoint(_appConfiguration["App:ServerRootAddress"] + "/swagger/v1/swagger.json", "HorasComplementaresApp API V1");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("HorasComplementaresApp.Web.Host.wwwroot.swagger.ui.index.html");
             }); // URL: /swagger
