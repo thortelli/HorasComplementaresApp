@@ -3,5 +3,6 @@ Aplicação SPA para gerenciamento de Horas Complementares de uma Instituição 
 
 # Documentation
 
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+Front-end:  Desenvolvido em Angular
 
+Back-End: Desenvolvimento em Asp.net Core Web API
