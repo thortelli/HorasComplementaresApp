@@ -1,0 +1,78 @@
+﻿.content.account-forms {
+    margin-top: 10px;
+}
+
+.content.tenant-change-box {
+    padding: 16px 16px 0px 16px;
+    margin: 120px auto 0px auto;
+    max-width: 400px;
+}
+.content.tenant-change-box > a {
+    cursor: pointer;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../assets/images/clock.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-horas-complementares{
+    -webkit-filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
+     filter: drop-shadow(0px 0px 7px rgb(0, 0, 0));
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .vertical-center {
+        min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh; /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+    }
+}
+/* iPhone 5, 5S, 5C and 5SE */
+@media only screen and (min-device-width: 500px) and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .vertical-center {
+
+        padding-top: 20%;
+
+        min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh; /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 1366px){
+    .vertical-center {
+        
+        min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 90vh; /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-device-width: 1400px) and (max-device-width: 2100px){
+    .vertical-center {
+        
+        min-height: 60%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 60vh; /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+    }
+}

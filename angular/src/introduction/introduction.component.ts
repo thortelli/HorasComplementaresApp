@@ -3,13 +3,13 @@ import { LoginService } from './login/login.service';
 import { AppComponentBase } from '@shared/app-component-base';
 
 @Component({
-    templateUrl: './account.component.html',
+    templateUrl: './introduction.component.html',
     styleUrls: [
-        './account.component.less'
+        './introduction.component.css'
     ],
     encapsulation: ViewEncapsulation.None
 })
-export class AccountComponent extends AppComponentBase implements OnInit {
+export class IntroductionComponent extends AppComponentBase implements OnInit {
 
     private viewContainerRef: ViewContainerRef;
 
@@ -26,11 +26,7 @@ export class AccountComponent extends AppComponentBase implements OnInit {
         this.versionText = this.appSession.application.version + ' [' + this.appSession.application.releaseDate.format('YYYYDDMM') + ']';
     }
 
-    showTenantChange(): boolean {
-        return abp.multiTenancy.isEnabled;
-    }
-
     ngOnInit(): void {
-        $('body').attr('class', 'login-page');
+        /* $('body').attr('class', 'login-page'); */
     }
 }

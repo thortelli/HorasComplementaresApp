@@ -5,10 +5,10 @@
     <text name="About" value="Sobre" />
     <text name="WellcomeMessage" value="Bem Vindo ao HorasComplementaresApp!" />
     <text name="FormIsNotValidMessage" value="Formulário não é válido. Por favor, verifique e corrija os erros." />
-    <text name="TenantNameCanNotBeEmpty" value="Tenant não pode estar vazio" />
+    <text name="TenantNameCanNotBeEmpty" value="Instituição de Ensino não pode estar vazio" />
     <text name="InvalidUserNameOrPassword" value="Nome de usuário ou senha inválida" />
-    <text name="ThereIsNoTenantDefinedWithName{0}" value="Não há Tenant definido com o nome {0}" />
-    <text name="TenantIsNotActive" value="Tenant {0} não está ativo." />
+    <text name="ThereIsNoTenantDefinedWithName{0}" value="Não há Instituição de Ensino definido com o nome {0}" />
+    <text name="TenantIsNotActive" value="Instituição de Ensino {0} não está ativo." />
     <text name="UserIsNotActiveAndCanNotLogin" value="Usuário {0} não está ativo e não pode logar." />
     <text name="UserEmailIsNotConfirmedAndCanNotLogin">Seu email não foi confirmado. Você não pode fazer login.</text>
     <text name="UserLockedOutMessage">Usuário bloqueado. Por favor, tente mais tarde.</text>
@@ -24,20 +24,20 @@
     <text name="Name" value="Nome" />
     <text name="Surname" value="Sobrenome" />
     <text name="EmailAddress" value="Endereço de e-mail" />
-    <text name="Tenants" value="Tenants" />
+    <text name="Tenants" value="Instituições de Ensino" />
     <text name="SavedSuccessfully" value="Salvo com sucesso" />
     <text name="CreateNewTenant" value="Crie um novo tenant" />
     <text name="AdminEmailAddress" value="Endereço de e-mail administrador" />
     <text name="Save" value="Salvar" />
     <text name="Cancel" value="Cancelar" />
-    <text name="TenantName_Regex_Description" value="Tenant deve ter no mínimo 2 caracteres, começa com uma letra e continuar com letra, número, traço ou sublinhado." />
+    <text name="TenantName_Regex_Description" value="Instituição de Ensino deve ter no mínimo 2 caracteres, começa com uma letra e continuar com letra, número, traço ou sublinhado." />
     <text name="DefaultPasswordIs" value="Senha padrão é {0}" />
     <text name="CanBeEmptyToLoginAsHost" value="Pode estar vazio para acessar como Host." />
     <text name="Register" value="Registrar" />
     <text name="OrLoginWith" value="Ou faça o login com" />
     <text name="WaitingForActivationMessage" value="A sua conta está esperando para ser ativado pelo administrador do sistema." />
-    <text name="TenantSelection" value="Seleção de Tenant" />
-    <text name="TenantSelection_Detail" value="Por favor selecione um dos seguintes tenants." />
+    <text name="TenantSelection" value="Seleção de Instituição de Ensino" />
+    <text name="TenantSelection_Detail" value="Por favor selecione um das seguintes Instituições de Ensino." />
     <text name="Logout" value="Sair" />
     <text name="RegisterFormUserNameInvalidMessage">Por favor, não entre um email no nome de usuário.</text>
     <text name="DatabaseConnectionString" value="Conexão com o banco de dados (Connection String)" />
@@ -49,10 +49,10 @@
     <text name="No" value="Não" />
     <text name="Optional" value="Opcional" />
     <text name="LeaveEmptyToSwitchToHost">Deixe em branco para mudar para o host.</text>
-    <text name="CurrentTenant">Tenant atual</text>
+    <text name="CurrentTenant">Instituição de Ensino</text>
     <text name="NotSelected">Não selecionado</text>
     <text name="Change">Alterar</text>
-    <text name="ChangeTenant">Alterar tenant</text>
+    <text name="ChangeTenant">Alterar Instituição de Ensino</text>
     <text name="MultiLevelMenu">Menu multinível</text>
     <text name="Back">Voltar</text>
     <text name="SuccessfullyRegistered">Registrado com sucesso</text>
@@ -67,10 +67,10 @@
     <text name="CouldNotCompleteLoginOperation">Operação de login não foi completada. Tente novamente mais tarde.</text>
     <text name="CouldNotValidateExternalUser">Não foi possível validar um usuário externo</text>
     <text name="EditRole">Editar Função</text>
-    <text name="EditTenant">Editar tenant</text>
+    <text name="EditTenant">Editar Instituição de Ensino</text>
     <text name="EditUser">Editar usuário</text>
-    <text name="TenantIdIsNotActive{0}">TenantId {0} não está ativo</text>
-    <text name="UnknownTenantId{0}">TenantId {0} não foi encontrado</text>
+    <text name="TenantIdIsNotActive{0}">Id {0} da Instituição de Ensino não está ativo</text>
+    <text name="UnknownTenantId{0}">Id {0} da Instituição de Ensino não foi encontrado</text>
     <text name="ThisFieldIsRequired">Campo obrigatório</text>
     <text name="PleaseWait">Aguarde...</text>
     <text name="Administration">Administração</text>

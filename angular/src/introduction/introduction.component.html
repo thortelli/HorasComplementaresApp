@@ -1,0 +1,73 @@
+﻿<!--BARRA SUPERIOR-->
+<app-top-bar></app-top-bar>
+
+<!--BANNER DA PÁGINA-->
+<div class="padding-0 margin-0 parallax">
+    <div class="container vertical-center">
+        <div class="row align-center">
+            <div class="col-md-12">
+                <img class="logo-horas-complementares img-responsive center-block" src="assets/images/HorasComplementares_horizontal_white.png">
+                <h5 class="lead col-white">As Atividades Complementares são um conjunto de atividades, habilidades, experiências e conhecimentos que devem ser adquiridos em ambiente extra-classe pelos alunos desta Instituição.</h5> 
+            </div>
+            <div class="col-md-12">
+                <button type="button" [routerLink]="['login']" class="btn bg-green btn-lg waves-effect">
+                    <span class="font-enlarge font-30">Acessar</span>
+                </button>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<!--CONTEÚDO DO PÁGINA-->
+<div class="container">
+    <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <div class="align-center">
+                    <h1 class="center">
+                        <a href="#">
+                            <i class="material-icons col-green font-50">forum</i>
+                        </a>
+                    </h1>
+                    <h3 class="font-weight-light">Quadro de Avisos</h3>
+
+                    <p class="lead align-justify">No quadro de avisos você poderá visualizar as atividades recomendadas pelo seu coordenador, informações úteis e outras publicações.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div class="align-center">
+                    <h1 class="center">
+                        <a href="#">
+                            <i class="material-icons col-green font-50">timelapse</i>
+                        </a>
+                    </h1>
+                    <h3 class="font-weight-light">Gerenciar as Horas</h3>
+
+                    <p class="lead align-justify">Você poderá visualizar as atividades que já foram lançadas, o status das suas solicitações e enviar as atividades realizadas.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-4 center-block">
+                <div class="align-center">
+                    <h1 class="center">
+                        <a href="#">
+                            <i class="material-icons col-green font-50">settings</i>
+                        </a>
+                    </h1>
+                    <h3 class="font-weight-light">Regulamento</h3>
+
+                    <p class="lead align-justify">Aqui, você pode acessar o regulamento, entender quais as regras para o seu curso, ver o passo a passo de como submeter as suas atividades complementares.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--RODAPÉ-->
+<app-footer-intro></app-footer-intro>

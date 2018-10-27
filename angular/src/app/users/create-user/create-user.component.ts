@@ -46,10 +46,10 @@ export class CreateUserComponent extends AppComponentBase implements OnInit {
     }
 
     save(): void {
-        //TODO: Refactor this, don't use jQuery style code
+        // TODO: Refactor this, don't use jQuery style code
         var roles = [];
         $(this.modalContent.nativeElement).find("[name=role]").each((ind:number, elem:Element) => {
-            if($(elem).is(":checked") == true){
+            if ($(elem).is(':checked') === true){
                 roles.push(elem.getAttribute("value").valueOf());
             }
         });

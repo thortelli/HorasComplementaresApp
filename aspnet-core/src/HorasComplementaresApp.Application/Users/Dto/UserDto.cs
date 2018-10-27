@@ -10,6 +10,8 @@ namespace HorasComplementaresApp.Users.Dto
     [AutoMapFrom(typeof(User))]
     public class UserDto : EntityDto<long>
     {
+
+
         [Required]
         [StringLength(AbpUserBase.MaxUserNameLength)]
         public string UserName { get; set; }
@@ -26,6 +28,10 @@ namespace HorasComplementaresApp.Users.Dto
         [EmailAddress]
         [StringLength(AbpUserBase.MaxEmailAddressLength)]
         public string EmailAddress { get; set; }
+
+        [Required]
+        [RegularExpression("[0-9]{6}-\\w")]
+        public string Prontuario { get; set; }
 
         public bool IsActive { get; set; }
 

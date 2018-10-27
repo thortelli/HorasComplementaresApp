@@ -1,0 +1,60 @@
+﻿<div class="modal fade in" id="defaultModal" tabindex="-1" role="dialog" style="display: block;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form #loginForm="ngForm" id="LoginForm" method="post" novalidate (ngSubmit)="login()">
+
+            <div *ngIf="showTenantChange()" class="tenant-change-box">
+                <tenant-change></tenant-change>
+            </div>
+
+            <div class="modal-header">
+                <h4 class="modal-title">{{l("LogIn")}}</h4>
+            </div>
+
+            <div class="modal-body">              
+
+                <div id="LoginArea" [@routerTransition]>
+                    <div #cardBody >
+                
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">person</i>
+                                </span>
+                                <div class="form-line">
+                                    <input materialInput [(ngModel)]="loginService.authenticateModel.userNameOrEmailAddress" autoFocus class="form-control" type="text" autocomplete="off" placeholder="{{l('UserNameOrEmail')}}" name="userNameOrEmailAddress" required maxlength="255" />
+                                </div>
+                            </div>
+                
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">lock</i>
+                                </span>
+                                <div class="form-line">
+                                    <input materialInput type="password" [(ngModel)]="loginService.authenticateModel.password" class="form-control" name="password" placeholder="{{l('Password')}}" required maxlength="32">
+                                </div>
+                            </div>
+                            
+                
+                            <div class="row m-t-15 m-b--20" *ngIf="isSelfRegistrationAllowed">
+                                <div class="col-xs-12">
+                                    <a [routerLink]="['../register']">{{l("Register")}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-xs-8 p-t-5">
+                            <input type="checkbox"  [(ngModel)]="loginService.rememberMe" name="rememberMe" id="rememberme" class="filled-in chk-col-green" value="true">
+                            <label for="rememberme">{{l("RememberMe")}}</label>
+                        </div>
+                        <div class="col-xs-4">
+                            <button id="LoginButton" class="btn btn-block bg-green waves-effect" type="submit">{{l("LogIn")}}</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
