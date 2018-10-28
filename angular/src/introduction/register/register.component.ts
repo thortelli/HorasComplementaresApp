@@ -31,6 +31,10 @@ export class RegisterComponent extends AppComponentBase implements AfterViewInit
         $(this.cardBody.nativeElement).find('input:first').focus();
     }
 
+    showTenantChange(): boolean {
+        return abp.multiTenancy.isEnabled;
+    }
+
     back(): void {
         this._router.navigate(['/login']);
     }

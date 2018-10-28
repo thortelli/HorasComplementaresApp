@@ -1,4 +1,4 @@
-﻿import { Component, Injector, ElementRef, ViewChild } from '@angular/core';
+﻿import { Component, Injector, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AppComponentBase } from '@shared/app-component-base';
 import { LoginService } from './login.service';
@@ -12,7 +12,7 @@ import { AbpSessionService } from '@abp/session/abp-session.service';
     ],
     animations: [accountModuleAnimation()]
 })
-export class LoginComponent extends AppComponentBase {
+export class LoginComponent extends AppComponentBase  implements AfterViewInit {
 
     @ViewChild('cardBody') cardBody: ElementRef;
 

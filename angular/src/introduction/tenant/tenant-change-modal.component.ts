@@ -46,7 +46,7 @@ export class TenantChangeModalComponent extends AppComponentBase {
             return;
         }
 
-        var input = new IsTenantAvailableInput();
+        const input = new IsTenantAvailableInput();
         input.tenancyName = this.tenancyName;
 
         this.saving = true;
