@@ -82,7 +82,7 @@
     <text name="Refresh">Atualizar</text>
     <text name="Create">Criar</text>
     <text name="UserDetails">Detalhes do usuário</text>
-    <text name="UserRoles">Funções de usuário</text>
+    <text name="UserRoles">Permissões</text>
     <text name="ConfirmPassword">Confirme a senha</text>
     <text name="Version">Versão</text>
     <text name="On">Ligado</text>
@@ -92,5 +92,6 @@
     <text name="Skins">Temas</text>
     <text name="Settings">Configurações</text>
     <text name="Submit">Enviar</text>
+    <text name="UserDetails">Detalhes do Usuário</text>
   </texts>
 </localizationDictionary>
